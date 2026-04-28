@@ -430,6 +430,39 @@ body {
   box-shadow: 0 8px 24px rgba(224, 122, 95, 0.3);
 }
 
+/* ===== Content & Blog Writing ===== */
+
+.blog-text {
+  font-size: 1.08rem;
+  color: var(--text-dark-muted);
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.5rem;
+  max-width: 40ch;
+}
+
+.blog-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-dark) 100%);
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  border-radius: 50px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.4s var(--ease-out-expo), box-shadow 0.4s ease;
+}
+
+.blog-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(224, 122, 95, 0.3);
+}
+
 /* ===== Skills ===== */
 .subsection-title {
   font-size: 1.2rem;
